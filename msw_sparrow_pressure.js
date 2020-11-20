@@ -52,7 +52,7 @@ catch (e) {
         name: 'msw_sparrow_pressure',				// 'lib_sparrow_air',
         target: 'armv6',
         description: "[name] [adc_no]",
-        scripts: './lib_sparrow_lidar 0',	// './lib_sparrow_air /dev/ttyUSB4 115200',
+        scripts: './lib_sparrow_pressure 0',	// './lib_sparrow_air /dev/ttyUSB4 115200',
 		data: ['PRESSURE'],
         control: ['Control_ONOFF']
     };
