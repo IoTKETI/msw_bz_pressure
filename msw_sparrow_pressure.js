@@ -49,7 +49,7 @@ try {
 }
 catch (e) {
     add_lib = {
-        name: 'lib_sparrow_pressure',				// 'lib_sparrow_air',
+        name: 'msw_sparrow_pressure',				// 'lib_sparrow_air',
         target: 'armv6',
         description: "[name] [adc_no]",
         scripts: './lib_sparrow_lidar 0',	// './lib_sparrow_air /dev/ttyUSB4 115200',
